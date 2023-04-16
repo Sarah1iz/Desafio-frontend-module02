@@ -1,0 +1,622 @@
+@import url(../pages/footer.css);
+@import url(../pages/header.css);
+@import url(../pages/reset.css);
+
+.banner {
+    width: 100%;
+    height: 650px;
+    background-image: url(../../assets/banner.png);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 47px;
+    padding-bottom: 12px;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 36px 0px;
+
+    width: 592px;
+    height: 236px;
+
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+}
+
+.card__text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+
+    color: #0CA778;
+}
+
+.card__text1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 116px;
+
+    color: #244242;
+}
+
+.section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section__title {
+    width: 328px;
+    height: 77px;
+    margin: 105px 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: right;
+
+    color: #244242;
+}
+
+.section__cards {
+    width: 1127px;
+    height: 487px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.section__card {
+    width: 320px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+.section__card__img {
+    border-radius: 8px 8px 0px 0px;
+}
+
+.section__card__title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    letter-spacing: -0.29px;
+    color: #244242;
+}
+
+.section__card__article {
+    padding: 0px 24px 0px 25px;
+    /*ESPAÇO EMBAIXO DO TEXTO TA CURTO*/
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    /* or 156% */
+
+    text-align: justify;
+
+    color: #244242;
+}
+
+.section2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section2__title {
+    width: 452px;
+    height: 77px;
+    margin: 100px 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: right;
+
+    color: #244242;
+}
+
+.section2__card {
+    width: 1127px;
+    height: 1024px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.section2__article1 {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 112px;
+}
+
+.section2__article1__img {
+    width: 526px;
+    height: 456px;
+    border-radius: 8px;
+}
+
+.section2__aside1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-left: 41px;
+}
+
+.section2__aside1__title {
+    width: 389px;
+    height: 44px;
+    margin-bottom: 20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.section2__aside1__text {
+    width: 560px;
+    height: 392px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* or 121% */
+
+    text-align: right;
+
+    color: #244242;
+}
+
+.section2__article2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.section2__aside2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 25px;
+}
+
+.section2__aside2__title {
+    width: 389px;
+    height: 44px;
+    margin-bottom: 17px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+.section2__aside2__text {
+    width: 560px;
+    height: 392px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #244242;
+}
+
+.section2__article2__img {
+    width: 526px;
+    height: 456px;
+    border-radius: 8px;
+}
+
+.section3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section3__title {
+    width: 478px;
+    height: 77px;
+    margin: 100px 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: right;
+
+    color: #244242;
+}
+
+.section3__equipe {
+    width: 1127px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.equipe__pessoa1 {
+    width: 246px;
+    height: 352px;
+    margin-right: 45px;
+    margin-bottom: 60px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pessoa1__img {
+    width: 246px;
+    height: 288px;
+    border-radius: 8px;
+}
+
+.pessoa1__nome {
+    width: 63px;
+    height: 29px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    text-align: right;
+    letter-spacing: -0.29px;
+
+    color: #244242;
+}
+
+.pessoa1__profissao {
+    width: 34px;
+    height: 19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+
+    color: #244242;
+}
+
+.equipe__pessoa2 {
+    width: 246px;
+    height: 352px;
+    margin-right: 47px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pessoa2__img {
+    width: 247px;
+    height: 288px;
+    border-radius: 8px;
+}
+
+.pessoa2__nome {
+    width: 115px;
+    height: 29px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    text-align: right;
+    letter-spacing: -0.29px;
+
+    color: #244242;
+}
+
+.pessoa2__profissao {
+    width: 34px;
+    height: 19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+
+    color: #244242;
+}
+
+.equipe__pessoa3 {
+    width: 246px;
+    height: 352px;
+    margin-right: 34px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pessoa3__img {
+    width: 246px;
+    height: 288px;
+    border-radius: 8px;
+}
+
+.pessoa3__nome {
+    width: 90px;
+    height: 29px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    text-align: right;
+    letter-spacing: -0.29px;
+
+    color: #244242;
+}
+
+.pessoa3__profissao {
+    width: 162px;
+    height: 19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+
+    color: #244242;
+}
+
+.equipe__pessoa4 {
+    width: 246px;
+    height: 352px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pessoa4__img {
+    width: 246px;
+    height: 288px;
+    border-radius: 8px;
+}
+
+.pessoa4__nome {
+    width: 88px;
+    height: 29px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    text-align: right;
+    letter-spacing: -0.29px;
+
+    color: #244242;
+}
+
+.pessoa4__profissao {
+    width: 23px;
+    height: 19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+
+    color: #244242;
+}
+
+.equipe__pessoa5 {
+    width: 246px;
+    height: 352px;
+    margin-right: 45px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pessoa5__img {
+    width: 246px;
+    height: 288px;
+    border-radius: 8px;
+}
+
+.pessoa5__nome {
+    width: 101px;
+    height: 29px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    text-align: right;
+    letter-spacing: -0.29px;
+
+    color: #244242;
+}
+
+.pessoa5__profissao {
+    width: 125px;
+    height: 19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+
+    color: #244242;
+}
+
+.equipe__pessoa6 {
+    width: 246px;
+    height: 352px;
+    margin-right: 47px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pessoa6__img {
+    width: 247px;
+    height: 293px;
+    border-radius: 8px;
+}
+
+.pessoa6__nome {
+    width: 131px;
+    height: 29px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    text-align: right;
+    letter-spacing: -0.29px;
+
+    color: #244242;
+}
+
+.pessoa6__profissao {
+    width: 107px;
+    height: 19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+
+    color: #244242;
+}
+
+.equipe__pessoa7 {
+    width: 246px;
+    height: 352px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pessoa7__img {
+    width: 246px;
+    height: 288px;
+    border-radius: 8px;
+}
+
+.pessoa7__nome {
+    width: 115px;
+    height: 29px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+    text-align: right;
+    letter-spacing: -0.29px;
+
+    color: #244242;
+
+}
+
+.pessoa7__profissao {
+    width: 89px;
+    height: 19px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+
+    color: #244242;
+}
